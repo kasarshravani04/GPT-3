@@ -31,3 +31,41 @@
 html {
   font-size: 62.5%;
 }
+body {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  font-family: var(--font);
+}
+
+/* page setting */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.layout {
+  padding: 0% 6%;
+}
+
+@media screen and (width <=768px) {
+  .layout {
+    padding: 0% 4%;
+  }
+}
+
+
+/* list default setting */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

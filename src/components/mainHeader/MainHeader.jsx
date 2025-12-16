@@ -3,7 +3,7 @@ import "./MainHeader.css";
 import "../../assets/Logo/GPT-3.svg";
 
 const MainHeader = () => {
-
+      
 
 
 
@@ -31,9 +31,10 @@ const MainHeader = () => {
                 </li>
             </ui>
         </nav>
+        
 
      </header>
-  )
-}
+  );
+};
 
 export default MainHeader
