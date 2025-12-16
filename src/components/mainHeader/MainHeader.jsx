@@ -1,6 +1,6 @@
 import React from 'react'
-import "./MainHeader.css";
-import "../../assets/Logo/GPT-3.svg";
+import './MainHeader.css';
+import '../../assets/Logo/GPT-3.svg';
 
 const MainHeader = () => {
       
@@ -37,4 +37,4 @@ const MainHeader = () => {
   );
 };
 
-export default MainHeader
+export default MainHeader;
