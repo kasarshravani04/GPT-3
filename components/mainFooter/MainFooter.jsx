@@ -9,4 +9,4 @@ const MainFooter = () => {
   )
 }
 
-export default  MainFooter
+export default  MainFooter;
