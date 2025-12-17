@@ -53,7 +53,7 @@ main {
   padding: 0% 6%;
 }
 
-@media screen and (width <=768px) {
+@media  (width <=768px) {
   .layout {
     padding: 0% 4%;
   }

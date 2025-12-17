@@ -14,4 +14,4 @@ const Button = ({ active , children}) => {
   );
 };
 
-export default Button
+export default Button;

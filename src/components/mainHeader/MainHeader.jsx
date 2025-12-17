@@ -1,7 +1,7 @@
 import React from 'react'
 import './MainHeader.css';
 import  logo  from '../../assets/Logo/GPT-3.svg';
-import button from '../../UI/Button/Button';
+import Button from '../../UI/Button/Button';
 import { useState } from 'react';
 
 const MainHeader = () => {
@@ -19,7 +19,7 @@ const MainHeader = () => {
             <img src={logo} alt='Gpt-3' loading='eager' width={150} height={100} />
         </div>
         <nav style={style}>
-            <ui>
+            <ul>
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -35,11 +35,11 @@ const MainHeader = () => {
                 <li>
                     <a href="#">Library</a>
                 </li>
-            </ui>
+            </ul>
         </nav>
         <div className="main_header__button">
-            <button active ={false}>Sign In </button>
-            <button active = {true}>Sign Up</button>
+            <Button active ={false}>Sign In </Button>
+            <Button active = {true}>Sign Up</Button>
         </div>
         <label className="main_header__hamburger">
         <input type="checkbox" />
