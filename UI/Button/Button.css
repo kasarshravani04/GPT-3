@@ -7,6 +7,7 @@
     font-size: 1.8rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    background-color: var(--pry-btn);
 }
 
 .main_button:hover {
