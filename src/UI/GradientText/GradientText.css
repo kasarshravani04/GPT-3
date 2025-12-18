@@ -1,0 +1,7 @@
+.gradient_text>*{
+   display:inline-block;
+   background: linear-gradient(90deg , var(--text-grad-1) 0% , var(--text-grad-2) 97%);
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+}
