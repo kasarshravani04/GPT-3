@@ -6,6 +6,7 @@ import MainFooter from './components/mainFooter/MainFooter';
 const App = () => {
   return (
     <div className="App">
+      <div className='blur_circle'/>
        <MainHeader />
       <main>
         <Home />

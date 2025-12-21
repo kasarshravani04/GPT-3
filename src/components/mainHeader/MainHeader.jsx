@@ -13,7 +13,7 @@ const MainHeader = () => {
             <img src={logo} alt='Gpt-3' loading='eager' width={150} height={100} />
         </div>
         <nav 
-        style={open ?{top : "0%"} : {top : "-2000%"}}>
+        style={open ? {top : "0%"} : {top : "-2000%"}}>
             <ul>
                 <li>
                     <a href="#">Home</a>
@@ -33,13 +33,13 @@ const MainHeader = () => {
             </ul>
         </nav>
         <div className="main_header__button">
-            <Button active ={false}>Sign In </Button>
-            <Button active = {true}>Sign Up</Button>
+            { <Button active ={false}>Sign In </Button> }
+            {<Button active = {true}>Sign Up</Button> }
         </div>
         <label className="main_header__hamburger">
         <input type="checkbox"
           checked = {open}
-          onClick={() => setOpen((prev) => !prev)} />
+          onChange={() => setOpen((prev) => !prev)} />
         <svg viewBox='0 0 32 32'>
           <path
             className="line line-top-bottom"

@@ -1,9 +1,9 @@
-import React from 'react'
+
 import "./Button.css";
 const Button = ({ active , children}) => {
     let style = {};
     if (active){
-        style.background = "var(--pry=btn)";
+        style.background = "var(--pry-btn)";
     }else{
         style.background = "transparent";
     }
