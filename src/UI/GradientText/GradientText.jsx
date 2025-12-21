@@ -1,8 +1,8 @@
 
 import "./GradientText.css";
 
-const GradientText = (Children) => {
-  return <div className="gradient_text">{Children}</div>
+const GradientText = ({children}) => {
+  return <div className="gradient_text">{children}</div>
 };
 
 export default GradientText;
