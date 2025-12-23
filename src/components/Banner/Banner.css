@@ -44,6 +44,11 @@
     align-items: center;
 }
 
+.banner__footer_section .img_container{
+    display: flex;
+    align-items:center ;
+}
+
 .banner_section .banner__footer_section img,
 .banner__footer_section .last_img {
     width: 36px;
