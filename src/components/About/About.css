@@ -1,0 +1,31 @@
+.about_section{
+    margin: 60px auto;
+}
+
+.about_section_container{
+    padding: 6%;
+    background: var(--bg-grad-1);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.about_section_container header ,
+.about_section_container .about_section__2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_section_container header span{
+    display: inline-block;
+    width: 100%;
+}
+
+.about_section__2 h2{
+    width: 100%;
+}
+.about_section_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
