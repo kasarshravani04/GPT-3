@@ -9,6 +9,11 @@
     flex-direction: column;
     gap: 4rem;
 }
+.about_section_container .gradient_line{
+    background: linear-gradient(90deg , var(--text-grad-1) 0% , var(--text-grad2) 97%);
+    width: 38px;
+    height: 3px;
+}
 
 .about_section_container header ,
 .about_section_container .about_section__2{
@@ -20,12 +25,44 @@
     display: inline-block;
     width: 100%;
 }
+.about_section_container header span h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
 
+.about_section_container header p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:var(--text-color2);
+}
 .about_section__2 h2{
+    font-size: 3rem;
+    font-weight: 800;
     width: 100%;
+}
+.about_section__2 a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--explore-color);
 }
 .about_section_cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+}
+.about_section_cards .about_section__card .gradient_line{
+    background: linear-gradient(90deg , var(--text-grad-1) 0% , var(--text-grad2) 97%);
+    width: 38px;
+    height: 3px;
+}
+
+.about_section_cards .about_section__card h3{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+.about_section_cards .about_section__card p{
+    margin-top: 5rem;
+    color: var(--text-color2);
+    font-size: 1.4rem;
+    font-weight: 500;
 }

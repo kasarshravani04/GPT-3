@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.css";
 import GradientText from "../../UI/GradientText/GradientText";
 
+
 const data = [
   {
     id: 101,
@@ -10,13 +11,13 @@ const data = [
   },
   {
     id: 102,
-    title: "Chatbots",
-    para: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. ",
+    title: "Knowledgebase",
+    para: "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b",
   },
   {
     id: 103,
-    title: "Chatbots",
-    para: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. ",
+    title: "Education",
+    para: "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b ",
   },
 ];
 
@@ -28,7 +29,7 @@ const About = () => {
         <header>
             <span>
              <span className='gradient_line'/>
-             <h2>What is GPT-3?</h2>
+              <h2>What is GPT-3?</h2>
             </span>
             <p>
               We so opinion friends me message as delight.
@@ -41,7 +42,7 @@ const About = () => {
         </header>
         <div className='about_section__2'>
           <GradientText>
-              <h2>The possibilities are beyond your imagination</h2>
+              <h2>The possibilities are beyond <br/> your imagination</h2>
           </GradientText>
           <a href='#'>Explore The Library</a>
         </div>
