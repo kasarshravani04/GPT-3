@@ -2,9 +2,9 @@ import React from 'react'
 
 const MainFooter = () => {
   return (
-    <div>
-       
-    </div>
+      <section className='main_footer layout'>
+        <header></header>
+      </section>
     
   )
 }
