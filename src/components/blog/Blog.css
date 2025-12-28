@@ -1,0 +1,76 @@
+.blog_section {
+    margin-top: 120px auto;
+}
+.blog_section header {
+    margin-bottom: 1em;
+    margin-top: 10em;
+}
+
+.blog_section header h2 {
+    font-size: 6.2rem;
+    font-weight: 800;
+}
+
+
+.blog_section .blog_section__cards {
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+}
+
+.blog_section__cards .card-post-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.blog_section .blog_section__cards .blog_section__card {
+    background: var(--bg-card);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blog_section__card .traingle {
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-bg);
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
+
+.blog_section__card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
+.blog_section__card span {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-size: 700;
+    padding: 1em 20px;
+}
+
+.blog_section__card.card-post-1 h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+
+.blog_section__card h3 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+
+.blog_section__card a {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 20px;
+}
