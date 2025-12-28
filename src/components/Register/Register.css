@@ -1,0 +1,40 @@
+.register_section{
+    margin:auto;
+}
+.register_section__container{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(90deg , var(--text-grad-1) 0% , var(--text-grad2) 97%);
+    border-radius: 10px;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    /*gap: 50rem;*/
+    justify-content: space-between;
+    
+}
+
+.register_section_text h4{
+   font-size: 1.4rem;
+   font-weight: 500;
+   color: #0E0E0E;
+}
+.register_section_text h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 1.5rem;
+}
+.register_section_btn {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    height: 60px;
+    width: 190px;
+    border-radius: 40px;
+    background-color: #000000;
+    color: #ffff;
+}
+.register_section_btn:hover{
+    background-color: rgba(80, 78, 78, 0.897);
+} 
