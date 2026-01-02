@@ -12,13 +12,16 @@
    max-width: 100%;
    height: auto;
    object-fit: contain;
+   margin-left: 5rem;
 }
 
 .feature_section__right{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
     margin-top: 10rem;
+    width: 5rem;
+    
 }
 .feature_section__right h3,
 .feature_section__right a{
