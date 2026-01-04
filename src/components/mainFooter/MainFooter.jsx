@@ -13,32 +13,34 @@ const MainFooter = () => {
         </header>
         <div className="main_footer__container">
                 <div className="main_footer_img">
-                 <ul>
-                  <li><img src={logo} alt='Gpt-3' loading='eager' width={150} height={100} /></li>
-                  <li>Crechterwoord K12 182 DK <br/>Alknjkcb, All Rights Reserved</li>
-                </ul> 
+                  <img src={logo} alt='Gpt-3' loading='eager' width={150} height={100}/>
+                  <p>
+                    Crechterwoord K12 182 DK <br/>
+                    Alknjkcb, All Rights Reserved
+                  </p>
                 </div>
+                <nav className="footer_nav">
                 <ul>
-                  <h3>Links</h3>
-                  <li>Overons</li>
-                  <li>Social Media</li>
-                  <li>Counters</li>
-                  <li>Contact</li>
+                  <li className="footer-title">Links</li>
+                  <li><a href="#">Overons</a></li>
+                  <li><a href="#">Social Media</a></li>
+                  <li><a href="#">Counters</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
                 <ul>
-                  <h3>Company</h3>
-                  <li>Term & Condition</li>
-                  <li>Privacy Policy</li>
-                  <li>Contact</li>
+                  <li className="footer-title">Company</li>
+                  <li><a href="#">Term & Condition</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Contact</a></li>
                  
                 </ul>
                 <ul>
-                  <h3>Get in touch</h3>
-                  <li>Crechterwoord K12 <br/>182 DK Alknjkcb</li>
-                  <li>085-132567</li>
-                  <li>info@payme.net</li>
-                  
+                  <li className="footer-title">Get in touch</li>
+                  <li><a href="#">Crechterwoord K12 <br/>182 DK Alknjkcb</a></li>
+                  <li><a href="tel:085132567">085-132567</a></li>
+                  <li><a href="mailto:info@payme.net">info@payme.net</a></li>
                 </ul>
+                </nav>
             </div>
         
       </section>
