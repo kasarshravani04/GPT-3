@@ -1,4 +1,4 @@
-
+import MainHeader from "../components/mainHeader/MainHeader";
 import Banner from "../components/Banner/Banner";
 import Client from "../components/Client/Client";
 import About from "../components/About/About";
@@ -7,9 +7,11 @@ import Feature from "../components/Feature/Feature";
 import Register from "../components/Register/Register";
 import Blog from "../components/blog/Blog";
 
+
 const Home = () => {
   return (
     <>
+       <MainHeader/>
        <Banner />
        <Client/>
        <About/>

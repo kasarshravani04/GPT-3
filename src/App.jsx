@@ -2,16 +2,29 @@ import React from 'react'
 import Home from './Pages/Home.jsx';
 import MainHeader from './components/mainHeader/MainHeader';
 import MainFooter from './components/mainFooter/MainFooter';
+import Register from './Pages/Register.jsx';
+  
+import {
+     BrowserRouter,
+     Route,
+     Routes,
+}from "react-router-dom";
+
 
 const App = () => {
   return (
     <div className="App">
       <div className='blur_circle'/>
-       <MainHeader />
+          
       <main>
-        <Home />
+          <BrowserRouter>
+                <Routes>
+                    <Route index element = {<Home/>}/>
+                    <Route path="/register" element = {<Register/>}/>
+                </Routes>
+          </BrowserRouter>
       </main>
-       <MainFooter />
+        <MainFooter/>
     </div>
   );
 };
