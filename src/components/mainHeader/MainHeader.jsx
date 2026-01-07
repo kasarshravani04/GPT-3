@@ -3,6 +3,7 @@ import './MainHeader.css';
 import  logo  from '../../assets/Logo/GPT-3.svg';
 import Button from '../../UI/Button/Button';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const MainHeader = () => {
     const [open,setOpen] = useState(false);
@@ -33,8 +34,13 @@ const MainHeader = () => {
             </ul>
         </nav>
         <div className="main_header__button">
+            <NavLink to="/login">
             { <Button active ={false}>Sign In </Button> }
-            {<Button active = {true}>Sign Up</Button> }
+            </NavLink>
+            <NavLink to="/register">
+             {<Button active = {true}>Sign Up</Button> }
+            </NavLink>
+           
         </div>
         <label className="main_header__hamburger">
         <input type="checkbox"

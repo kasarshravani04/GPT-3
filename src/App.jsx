@@ -18,7 +18,7 @@ const App = () => {
     <div className="App">
       <div className='blur_circle'/>
           
-      <main>
+      
           <BrowserRouter>
                 <Routes>
                     <Route index element = {<Home/>}/>
@@ -26,8 +26,8 @@ const App = () => {
                     <Route path="/register" element = {<Register/>}/>
                 </Routes>
           </BrowserRouter>
-      </main>
-        <MainFooter/>
+      
+        
     </div>
   );
 };

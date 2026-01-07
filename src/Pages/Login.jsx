@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Login.css";
 
 const Login = () => {
@@ -46,6 +47,13 @@ const Login = () => {
 
         <button type="submit">Login</button>
       </form>
+
+       <p className="signup-text">
+        If you don’t have an account?
+        <NavLink to="/register" className="signup-link">
+          {" "}Sign up
+        </NavLink>
+      </p>
     </div>
   );
 };
