@@ -3,6 +3,8 @@ import Home from './Pages/Home.jsx';
 import MainHeader from './components/mainHeader/MainHeader';
 import MainFooter from './components/mainFooter/MainFooter';
 import Register from './Pages/Register.jsx';
+import Login from './Pages/Login.jsx';
+
   
 import {
      BrowserRouter,
@@ -20,6 +22,7 @@ const App = () => {
           <BrowserRouter>
                 <Routes>
                     <Route index element = {<Home/>}/>
+                    <Route path='/login' element = {<Login/>}/>
                     <Route path="/register" element = {<Register/>}/>
                 </Routes>
           </BrowserRouter>
