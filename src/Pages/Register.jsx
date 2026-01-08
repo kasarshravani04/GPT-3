@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Register.css";
+import { NavLink } from "react-router-dom";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -68,6 +69,12 @@ const Register = () => {
 
         <button type="submit">Register</button>
       </form>
+      <p className="signin-text">
+          Not a User?
+          <NavLink to="/Login" className="signin-link">
+           {""} Sign In 
+          </NavLink>
+      </p>
     </div>
   );
 };

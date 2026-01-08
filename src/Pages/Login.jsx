@@ -35,15 +35,6 @@ const Login = () => {
           required
         />
 
-        <label>Confirm Password</label>
-        <input
-          type="password"
-          placeholder="Confirm Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-
 
         <button type="submit">Login</button>
       </form>
