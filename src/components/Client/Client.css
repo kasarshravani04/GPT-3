@@ -1,9 +1,11 @@
 .client_section{
     margin: 12px auto;
+    flex-wrap: wrap;
 }
 
 .client_section div{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
