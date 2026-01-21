@@ -112,6 +112,7 @@ header.main_header nav>ul>li:hover::after {
 
     .main_header {
         position: relative;
+        
     }
 
     header.main_header nav {
@@ -131,7 +132,13 @@ header.main_header nav>ul>li:hover::after {
          width: 100%;
     }
 }
- 
+@media (width <=700px){
+    .main_header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
 @media (width <= 400px){
     header.main_header .main_header__button{
         display: none;
